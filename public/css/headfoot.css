@@ -1,0 +1,175 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #6dabe4;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 10%;
+  padding: 4%;
+  width: 20%;
+  cursor: pointer;
+}
+
+/* CSS LOGO */
+.brand span {
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.brand h1 {
+  margin-left: 5%;
+}
+
+.navbar {
+  position: relative;
+  width: 70%;
+  padding: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchBox {
+  position: relative;
+  width: 40%;
+}
+
+.searchBox input {
+  width: 90%;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  padding: 1%;
+  text-indent: 10px;
+  font-size: 18px;
+}
+
+#searchIcon {
+  width: 30px;
+  height: 38px;
+  position: relative;
+  left: -30px;
+  color: white;
+  z-index: 221;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+
+ul {
+  width: 60%;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 4%;
+  padding: 1%;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #6dabe4;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: black;
+}
+
+.footer-bottom {
+  background: #6dabe4;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+/*
+        Create responsive header using Html Css
+        https://www.youtube.com/watch?v=vjRvmHmLITc
+      
+        Footer Html Css | website footer design
+        https://www.youtube.com/watch?v=zdA3qZNH1vc
+*/

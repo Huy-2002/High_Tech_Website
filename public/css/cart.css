@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: white;
+    /* box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3); */
+}
+
+.left, .right{
+    width: 50%;
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex1{
+    display: flex;
+}
+
+.main_image{
+    width: auto;
+    height: auto;
+}
+
+.slide{
+    width: 100%;
+    height: auto;
+}
+
+.right{
+    padding: 0 100px 50px 50px;
+}
+
+h3{
+    color: #6DAAE4;
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+}
+
+h5,p,small{
+    color: #837d7c;
+}
+
+h4{
+    color:red;
+}
+
+p{
+    margin: 20px 0 50px 0;
+    line-height: 25px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+
+.add span{
+    background: none;
+    border: 1px solid #c1908b;
+    color: #c1908b;
+    text-align: center;
+    cursor: pointer;
+
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 20px 10px 20px 0;
+    
+}
+
+.add input{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #c1908b;
+    color: #c1908b;
+    outline: none;
+    margin: 20px 10px 20px 0;
+}
+
+.btn2{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #6DAAE4;
+    color: white;
+    margin-top: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Voucher */
+.label_voucher{
+    position: relative;
+}
+
+.input_voucher[type="text"]
+{
+    border-radius: 10px;
+    width: 430px;
+    height: 50px;
+    padding: 0 16px;
+    outline: none;
+}
+
+
+.btn1_voucher{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6DAAE4;
+    color: white;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+/*
+    https://www.youtube.com/watch?v=HKr2olKX304&t=220s
+    How To Make Product Details Using HTML, CSS And JavaScript
+*/

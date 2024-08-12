@@ -1,0 +1,31 @@
+
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left; 
+}  
+div{
+    text-align: center; 
+    border-radius: .3rem;
+}
+
+.content{
+    margin: 200px 0 250px 0;
+}
+
+a{
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 10px; 
+    display: inline-block;
+    font-weight: 400;
+    text-align: center; 
+    text-decoration: none;
+}
+
+.mesg{
+    margin: 1rem;
+}
