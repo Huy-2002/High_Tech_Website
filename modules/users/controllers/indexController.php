@@ -180,6 +180,7 @@ function addOrderAction()
         $order_cusaddress = $_POST['order_cusaddress'];
         $order_shipping_method = $_POST['shipping'];
         $order_payment_method = $_POST['payment'];
+        $order_product_quantity = $_POST['order_product_quantity'];
         //$id = $_POST['id'];
 
         // Initialize total price
@@ -199,7 +200,7 @@ function addOrderAction()
             'order_shipping_method' => $order_shipping_method,
             'order_payment_method' => $order_payment_method,
             'order_total_price' => $totalPrice, // Assign total price
-            // 'order_product_quantity' => $product_quantity,
+            'order_product_quantity' => $order_product_quantity,
             // 'order_product_id' =>  $id,
         );
 
