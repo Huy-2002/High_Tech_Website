@@ -189,7 +189,7 @@ function addOrderAction()
         // Calculate total price based on products in the cart
         foreach ($_SESSION['cart'] as $key => $value) {
             $totalPrice += $_SESSION['cart_detail'][$key]['product_price'] * $value;
-            //$product_quantity = $value;
+            $product_quantity = $value;
         }
 
         $data = array(
@@ -200,7 +200,7 @@ function addOrderAction()
             'order_shipping_method' => $order_shipping_method,
             'order_payment_method' => $order_payment_method,
             'order_total_price' => $totalPrice, // Assign total price
-            'order_product_quantity' => $order_product_quantity,
+            'order_product_quantity' => $product_quantity,
             // 'order_product_id' =>  $id,
         );
 
@@ -217,6 +217,8 @@ function addOrderAction()
     } else if (isset($_POST['id_cancel'])) {
         redirect('?mod=users&action=mainpage');
     }
+
+    // Để có thể xem triggers đã tạo hãy viét show triggers trong sql phpmyadmin
 }
 
 // Thank you page
